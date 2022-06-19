@@ -1,0 +1,106 @@
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(322, 100%, 66%);
+    font-family: open sans;
+}
+@media screen and (max-width:900px){
+   body{background-color: hsl(193, 100%, 96%);
+    }
+}
+@media screen and (max-width:600px){
+    body{ background-color:hsl(192, 100%, 9%);
+    }
+}
+@media screen and (max-width:300px){
+    body{ background-color:hsl(208, 11%, 55%);
+    }
+}
+main{
+    width:50%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    Height:250vh;
+    flex-direction:column;
+}
+@media screen and (max-width:100px){
+    main{ flex-direction:row ;
+    }
+.one{
+    background-color:hsl(193, 100%, 96%);
+    padding:2em;
+}
+.one h3{
+    font-size:18px;
+    padding-bottom:10px;
+    font-family:poppins;
+}
+.one p{
+    font-size:18px;
+    padding-bottom: 10px;
+}
+.one button{
+    background-color:pink;
+    border-radius: 12px;
+    padding: 10px;
+}
+.two{
+    background-color:hsl(189, 20%, 93%);
+    padding:2em;
+}
+.two h3{
+    font-size:18px;
+    padding-bottom:10px;
+    font-family:poppins;
+}
+.two p{
+    font-size:18px;
+    padding-bottom: 10px;
+}
+.three{
+    background-color:white;
+    padding:2em;
+}
+.three h3{
+    font-size:18px;
+    padding-bottom:10px;
+    font-family:poppins;
+}
+.three p{
+    font-size:18px;
+    padding-bottom: 10px;
+}
+.four{
+        background-color:white;
+        padding:2em;
+    }
+.four h3{
+        font-size:18px;
+        padding-bottom:10px;
+        font-family:poppins;
+}
+.four p{
+        font-size:18px;
+        padding-bottom: 10px;
+}
+.five{
+    background-color:white;
+    padding:2em;
+}
+.five h3{
+    font-size:18px;
+    padding-bottom:10px;
+    font-family:poppins;
+}
+.five button{
+    background:pink;
+    border-radius: 12px;
+    padding: 10px;
+}
+
